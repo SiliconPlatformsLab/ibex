@@ -15,6 +15,7 @@ sources:
     include_dirs:
       - rtl
       - vendor/lowrisc_ip/ip/prim/rtl
+      - vendor/lowrisc_ip/dv/sv/dv_utils
 
     files:
       # Source files grouped in levels. Files in level 0 have no dependencies on files in this
