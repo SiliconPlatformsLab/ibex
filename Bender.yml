@@ -24,6 +24,8 @@ sources:
       # Level 0
       - rtl/ibex_pkg.sv
       - vendor/lowrisc_ip/ip/prim/rtl/prim_assert.sv
+      - vendor/lowrisc_ip/ip/prim_generic/rtl/prim_ram_1p_pkg.sv
+      - vendor/lowrisc_ip/ip/prim_generic/rtl/prim_ram_1p.sv
       # Level 1
       - rtl/ibex_alu.sv
       - rtl/ibex_compressed_decoder.sv
