@@ -31,6 +31,8 @@ sources:
       - vendor/lowrisc_ip/ip/prim/rtl/prim_cipher_pkg.sv
       - vendor/lowrisc_ip/ip/prim/rtl/prim_util_pkg.sv
       - vendor/lowrisc_ip/ip/prim/rtl/prim_mubi*.sv
+      # FIXME this should be a vendor cell
+      - syn/rtl/prim_clock_gating.sv
       # Level 1
       - rtl/ibex_alu.sv
       - rtl/ibex_branch_predict.sv
